@@ -1,0 +1,4 @@
+name: projectr::bare_rmd
+description: >
+   This is a very brief Rmd with some of my preferred options set.
+create_dir: FALSE
