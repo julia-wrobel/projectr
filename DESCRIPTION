@@ -1,7 +1,7 @@
 Package: projectr
 Title: Create new projects
 Version: 0.0.1
-Authors@R: person("Jeff", "Goldsmith", email = "ajg2202@cumc.columbia.edu", 
+Authors@R: person("Julia", "Wrobel", email = "julia.wrobel@emory.edu", 
   role = c("aut", "cre"))
 Description: Basically a stripped-down version of \code{workflowr}, this 
   package is used to create directory and git infrastructure for new 
