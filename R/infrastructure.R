@@ -71,40 +71,5 @@ LaTeX: pdfLaTeX
 
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
-
-',
-  `analysis/template.Rmd` = '
----
-title: "title"
-author: "author"
-date: "date"
-output:
-  html_document:
-    code_folding: hide
-    toc: true
-    toc_float: true
-hitheme: tomorrow
-highlighter: highlight.js
----
-
-NOTE: please change the chunk below to an R chunk!
-
-```
-library(tidyverse)
-library(patchwork)
-
-knitr::opts_chunk$set(echo = TRUE,
-  warning = FALSE,
-  message = FALSE,
-  fig.width = 9,
-  fig.height = 4,
-  fig.path = "../figures/"
-)
-
-theme_set(theme_bw() + theme(legend.position = "bottom"))
-```
-
-
 '
-
 )
