@@ -26,8 +26,10 @@ following files:
 \preformatted{|--- .gitignore
 |--- <directory>.Rproj
 |--- analysis/
+|--- analysis/template.Rmd
 |--- data/
 |--- drafts/
+|--- literature/
 |--- results/
 |--- source/
 |--- README.md
@@ -39,7 +41,9 @@ files that implement the analyses for the project.
 \code{data/} will either be a symbolic link to an external data
 directory, or a subdirectory.
 
-\code{drafts/} will contain all references and relevant paper drafts
+\code{drafts/} will contain all relevant paper drafts
+
+\code{literature/} will contain links to or copies of relevent literature
 
 \code{results/} will contain results exported by the analysis files
 
