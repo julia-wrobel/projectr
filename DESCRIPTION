@@ -1,0 +1,15 @@
+Package: projectr
+Title: Create new projects
+Version: 0.0.1
+Authors@R: person("Jeff", "Goldsmith", email = "ajg2202@cumc.columbia.edu", 
+  role = c("aut", "cre"))
+Description: Basically a stripped-down version of \code{workflowr}, this 
+  package is used to create directory and git infrastructure for new 
+  projects. 
+Depends: R (>= 3.5.0)
+Imports:
+  git2r, glue
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
