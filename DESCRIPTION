@@ -8,8 +8,8 @@ Description: Basically a stripped-down version of \code{workflowr}, this
   projects. 
 Depends: R (>= 3.5.0)
 Imports:
-  git2r, glue
+  git2r, glue, zip
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
